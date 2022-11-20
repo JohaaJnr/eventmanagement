@@ -12,7 +12,7 @@ after installation complete run, ***npm start***  OR  ***npm run dev***
 >
 > Returns all the events that hasn't been started yet. **query parameters** are **page** and **limit** changing these values returns a paginated event results.
 
-> **Response** : `{
+> **Response** : {
   "events": [
     {
       "id": 2,
@@ -32,7 +32,7 @@ after installation complete run, ***npm start***  OR  ***npm run dev***
     "page": "1",
     "Per_page": "2"
   }
-}`
+}
 
 
 
