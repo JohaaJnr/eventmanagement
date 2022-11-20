@@ -8,6 +8,8 @@ after installation complete run, ***npm start***  OR  ***npm run dev***
 
 ## APIs Endpoints
 
-> - http://localhost:3000/events
+> - http://localhost:3000/events?page=1&limit=3
 >
-> returns all the events that hasn't been started yet
+> Returns all the events that hasn't been started yet. *query parameters* are **page** and **limit** changing these values returns a paginated event results.
+
+> - http://localhost:3000/events/details/:id
