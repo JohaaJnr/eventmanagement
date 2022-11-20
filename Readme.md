@@ -34,4 +34,4 @@ after installation complete run, ***npm start***  OR  ***npm run dev***
 
 > - http://localhost:3000/reservation
 >
-> Make a **POST Request** with the body **name** **email** **workshop_id** to make a quick reservation to the workshop
+> Make a **POST Request** with the body **name** , **email** , **workshop_id** to make a quick reservation to the workshop
