@@ -12,6 +12,28 @@ after installation complete run, ***npm start***  OR  ***npm run dev***
 >
 > Returns all the events that hasn't been started yet. **query parameters** are **page** and **limit** changing these values returns a paginated event results.
 
+> **Response** : `{
+  "events": [
+    {
+      "id": 2,
+      "title": "Demo Event 2",
+      "start_at": "2022-11-20T21:32:27.000Z",
+      "end_at": "2022-11-24T01:32:27.000Z"
+    },
+    {
+      "id": 3,
+      "title": "Demo Event 3",
+      "start_at": "2022-11-22T01:34:20.000Z",
+      "end_at": "2022-11-24T23:34:20.000Z"
+    }
+  ],
+  "pagination": {
+    "Total": 2,
+    "page": "1",
+    "Per_page": "2"
+  }
+}`
+
 
 
 > - http://localhost:3000/events/details/:id
