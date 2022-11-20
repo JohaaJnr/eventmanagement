@@ -4,7 +4,7 @@
 
 Clone the repo. In the project directory open terminal and run **npm install**
 
-after installation complete run, **npm start** OR **npm run dev**
+after installation complete run, ***npm start***  OR  ***npm run dev***
 
 ## APIs Endpoints
 
