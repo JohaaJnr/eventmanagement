@@ -7,8 +7,7 @@ var moment = require('moment')
 router.get('/', (req,res)=>{
     const page = req.query.page
     const limit = req.query.limit
-    const date = moment().format('yyyy-mm-DD hh:mm:ss')
-    console.log(date)
+   
     const startIndex = (page - 1) * limit
     const endIndex = page * limit
     db.query(`SELECT * FROM events WHERE start_at > NOW()`, (err,response)=>{
