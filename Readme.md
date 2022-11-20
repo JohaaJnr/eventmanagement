@@ -8,6 +8,6 @@ after installation complete run, ***npm start***  OR  ***npm run dev***
 
 ## APIs Endpoints
 
-> http://localhost:3000/events
+> 1. http://localhost:3000/events
 >
 > returns all the events that hasn't been started yet
