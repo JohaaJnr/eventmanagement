@@ -4,7 +4,7 @@
 
 Clone the repo. You will found the **eventdb sql** file in the config folder. Import the database in **phpmyadmin**. In the project directory open terminal and run **npm install**
 
-after installation complete run, ***npm start***  OR  ***npm run dev***
+after installation complete, run ***npm start***  OR  ***npm run dev***
 
 ## API Endpoints
 
